@@ -7,6 +7,7 @@
     {"id":{"name":"Obj_Rock","path":"objects/Obj_Rock/Obj_Rock.yy",},"order":1,},
     {"id":{"name":"Spr_Ship_Player","path":"sprites/Spr_Ship_Player/Spr_Ship_Player.yy",},"order":0,},
     {"id":{"name":"Spr_Rock_Large","path":"sprites/Spr_Rock_Large/Spr_Rock_Large.yy",},"order":1,},
+    {"id":{"name":"Obj_Space_Station","path":"objects/Obj_Space_Station/Obj_Space_Station.yy",},"order":2,},
     {"id":{"name":"Obj_Ship_Player","path":"objects/Obj_Ship_Player/Obj_Ship_Player.yy",},"order":0,},
     {"id":{"name":"Spr_Small_Rock","path":"sprites/Spr_Small_Rock/Spr_Small_Rock.yy",},"order":3,},
     {"id":{"name":"Spr_Space_Stashion","path":"sprites/Spr_Space_Stashion/Spr_Space_Stashion.yy",},"order":4,},
