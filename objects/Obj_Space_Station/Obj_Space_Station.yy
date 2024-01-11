@@ -2,7 +2,10 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "Obj_Space_Station",
-  "spriteId": null,
+  "spriteId": {
+    "name": "Spr_Space_Stashion",
+    "path": "sprites/Spr_Space_Stashion/Spr_Space_Stashion.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,
