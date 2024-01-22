@@ -11,6 +11,9 @@ if (keyboard_check(vk_up)){
 	motion_add(image_angle, 0.05);
 }
 
+if (keyboard_check(vk_down)){
+	motion_add(image_angle, -0.05);
+}
 
 // room warp
 move_wrap(true,true,0);
