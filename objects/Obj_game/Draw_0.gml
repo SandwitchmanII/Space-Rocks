@@ -26,10 +26,34 @@ switch(room){
 		break;
 	
 	case Rom_Win:
-	
+	draw_set_halign(fa_center);
+		var c = c_navy;
+		draw_text_transformed_color(
+			room_width/2, 200, "Victory",
+			3, 3,0, c,c,c,c, 1 
+		);
+		draw_text(
+			room_width/2, 300, 
+			">> Press Enter to Play Again <<"
+		);
+		draw_set_halign(fa_left);
 		break;
 		
 	case Rom_Game_Over:
-	
+	draw_set_halign(fa_center);
+		var c = c_red;
+		draw_text_transformed_color(
+			room_width/2, 200, "Defeat",
+			3, 3,0, c,c,c,c, 1 
+		);
+		draw_text(
+			room_width/2, 250, 
+			"Your Score: "+string(score)
+		);
+		draw_text(
+			room_width/2, 300, 
+			">> Press Enter to Play Again <<"
+		);
+		draw_set_halign(fa_left);
 		break;
 }

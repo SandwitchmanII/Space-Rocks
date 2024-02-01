@@ -1,2 +1,2 @@
 score = 0;
-lives = 3;
+lives = 1;
