@@ -19,4 +19,6 @@ if(room == Rom_Spcse){
 	if (lives <= 0){
 		room_goto(Rom_Game_Over)
 	}
+	
+	alarm[0] = 60;
 }
